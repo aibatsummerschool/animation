@@ -11,7 +11,7 @@ void setup()
  
 void draw()
 {
-  for(int i = 0; i != 5; i++){
+  for(int i = 0; i != 40; i++){
     int x = (int)random(0,540),
       y = (int)random(0,770);
     color c = img.get(x,y);
